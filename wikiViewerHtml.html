@@ -1,0 +1,73 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> fcc wikipedia viewer</title>
+<link rel="stylesheet" href="/Users/Mart/Desktop/projekts/highgrade/css/bootstrap-3.3.6-dist/css/bootstrap.css">
+<link rel="stylesheet" href="/Users/Mart/Desktop/projekts/highgrade/css/bootstrap-3.3.6-dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="/Users/Mart/Desktop/resource/craft/jquery/jquery-3.0.0.js"></script>
+<script src="/Users/Mart/Desktop/Projekts/fcc/Wiki/wiki viewer.js"></script>
+<style>
+    body{
+        background-image:url(/Users/Mart/Desktop/Projekts/fcc/Wiki/images/Wikipedia-3d-Hd-Wallpaper.jpg);
+        
+        background-size: 100% auto;
+        padding-bottom:20px;
+    }
+    header{
+        border-bottom: 3px solid black;
+    }
+    .imageicon{
+        width:100px;
+        height:100px;
+    }
+    </style>
+</head>
+<body class="container">
+<header class="container-fluid">
+<div class="row">
+<h1> FCC Wikipedia Viewer </h1>
+</div>
+</header>
+<section class="container-fluid">
+<div class="row">
+<div class=" col-sm-2 col-md-8 col-lg-3"></div>
+<div class=" col-sm-8 col-md-8 col-lg-6">
+<form class="form-group input-group has-feedback">
+<input class="form-control input-control hasclear" type="text" id="searchterm" placeholder=" search Wiki">
+<span class="input-group-addon clear">
+<span class="glyphicon glyphicon-remove-circle"></span>
+</span>
+<span class="input-group-btn">
+<a target="_blank" href="http://en.wikipedia.org/wiki/Special:Random"class="btn btn-default" id="randomArticle" type="button" title="random article">
+<span class="glyphicon glyphicon-random"></span>
+</a>
+</span>
+</form>
+</div>
+<div class=" col-sm-2 col-md-8 col-lg-3"></div>
+</div>
+</section>
+<section class="container-fluid">
+    <div class="row">
+        <div class="col-sm-2 col-md-2 col-lg-3"></div>
+        <div class="col-sm-8 col-md-8 col-lg-6">
+            <ul class="media-list list-group" id="searchresults"></ul>
+        </div>
+        <div class="col-sm-2 col-md-2 col-lg-6"></div>
+        </div>
+</section>
+<div class="container footer">
+    <div class="row">
+<div class="col-md-12 text-center">
+    <footer class="footer navbar-fixed-bottom">Wunderdog</footer>
+</div>
+ </div>
+    </div>
+</body>
+</html>
